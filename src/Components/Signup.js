@@ -4,6 +4,8 @@ import "./Signup.css"
 import { Form, Alert } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import { useUserAuth } from "../context/UserAuthContext";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const Signup = () => {
   const [email, setEmail] = useState("");
@@ -25,6 +27,7 @@ const Signup = () => {
 
   return (
     <>
+    <Navbar/>
     <div className="mainbox">
       <div className="p-4box">
         <h2 className="mb-3">Let's set up your account</h2>
@@ -63,6 +66,7 @@ const Signup = () => {
         Already have an account? <Link to="/login">Log In</Link>
       </div>
       </div>
+      <Footer/>
     </>
   );
 };

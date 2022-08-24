@@ -1,5 +1,6 @@
 .foot1{
     margin: auto;
+    margin-top: 50px;
     display: flex;
     width: 90%;
     justify-content: space-between;

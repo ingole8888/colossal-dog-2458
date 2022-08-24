@@ -5,6 +5,8 @@ import { Button } from "react-bootstrap";
 import GoogleButton from "react-google-button";
 import { useUserAuth } from "../context/UserAuthContext";
 import "./Login.css"
+import Footer from "./Footer";
+import Navbar from "./Navbar";
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -36,6 +38,7 @@ const Login = () => {
 
   return (
     <>
+    <Navbar/>
     <div className="mainbox">
       <div className="p-4box">
         <h1 className="mb-3">Welcome Back</h1>
@@ -78,6 +81,7 @@ const Login = () => {
         Don't have an account? <Link to="/signup">Sign up</Link>
       </div>
       </div>
+      <Footer/>
     </>
   );
 };
