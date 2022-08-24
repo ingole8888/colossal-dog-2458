@@ -1,0 +1,30 @@
+.p-4box{
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 60px;
+    width: 70%;
+ }
+ .mainbox{
+     margin: auto;
+     width: 50%;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ }
+ h2{
+    margin-bottom: 30px;
+ }
+ .g-btn {
+    width: 100% !important;
+    height: 40px !important;
+    line-height: 40px !important;
+    font-size: 15px !important;
+  }
+  .g-btn > div,
+  .g-btn > div > svg {
+    width: 40px !important;
+    height: 38px !important;
+  }
+  .textbox{
+   text-align: center;
+   padding-bottom: 50px;
+  }
