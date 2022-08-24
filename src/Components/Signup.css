@@ -1,0 +1,17 @@
+.p-4box{
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 60px;
+    width: 70%;
+ }
+ 
+ .mainbox{
+     margin: auto;
+     width: 50%;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ }
+ .textbox{
+   text-align: center;
+   padding-bottom: 50px;
+ }
