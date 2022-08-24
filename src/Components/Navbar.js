@@ -14,7 +14,7 @@ function Navbar() {
         <div className="navitem2">
           <div><input className="input" placeholder="search product"/></div>
           <div className="navitem21">
-            <div><Link to="/signup"><FcBusinesswoman/></Link></div>
+            <div><Link to="/login"><FcBusinesswoman/></Link></div>
           {/* <Link className="navitem11" to="/login">Login</Link> */}
           <div><Link to="/cartpage"><FaShoppingBag/></Link></div>
           </div>
