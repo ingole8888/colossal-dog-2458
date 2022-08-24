@@ -1,0 +1,38 @@
+.foot1{
+    margin: auto;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    line-height: 10px;
+    font-size: 15px;
+}
+.foot2{
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    width: 90%;
+    justify-content: space-between;
+}
+.foot2 img{
+    width: 500px;
+}
+.foot3{
+    display: flex;
+    justify-content: space-between;
+}
+.foot4{
+    margin: auto;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+.root4p{
+    text-decoration: none;
+    color: black;
+}
+.root4p :hover{
+    color: red;
+}
+.p{
+    text-align: center;
+}
