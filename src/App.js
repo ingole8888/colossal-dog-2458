@@ -5,6 +5,7 @@ import Signup from "./Components/Signup";
 import ProductPage from "./Components/ProductPage";
 import CartPage from "./Components/CartPage"
 import { UserAuthContextProvider } from "./context/UserAuthContext";
+import Checkout from "./Components/Checkout";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
               <Route path="/signup" element={<Signup />} />
               <Route path="/productpage" element={<ProductPage/>} />
               <Route path="/cartpage" element={<CartPage/>} />
+              <Route path="/checkout" element={<Checkout/>}/>
             </Routes>
           </UserAuthContextProvider>
     </div>
