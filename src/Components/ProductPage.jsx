@@ -6,7 +6,6 @@ import "./ProductPage.css"
 
 function ProductPage(){
     const [data, setData]=useState([]);
-
     useEffect(()=>{
         axios("https://fake-restful-api1.herokuapp.com/Allproducts")
         .then((res)=> setData(res.data))
@@ -21,14 +20,12 @@ function ProductPage(){
             <div className="subitems">
             <img src={items.image} alt=""/>
             <h4>{items.name}</h4>
-            <h2>{items.price}</h2>
+            <h2>Price: ₹{items.price}</h2>
             <p>{items.details}</p>
             <button>Add to Cart</button>
             </div>
-            
            )
         })}
-        
         </div>
         <Footer/>
         </>
