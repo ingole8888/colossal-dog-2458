@@ -5,6 +5,9 @@ function ProductPage(){
         <>
         <Navbar/>
         <h1>Product Page</h1>
+        <h1>Product Page</h1>
+        <h1>Product Page</h1>
+        <h1>Product Page</h1>
         <Footer/>
         </>
     )
