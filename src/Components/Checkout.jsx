@@ -28,7 +28,7 @@ function Checkout(){
                 </div>
             </div>
             <div className="order">
-                <h1>Total: ₹ 5014</h1>
+                <h1>Total: ₹ 1885</h1>
                 <button onClick={handle}>Confirm Order</button>
             </div>
         </div>
