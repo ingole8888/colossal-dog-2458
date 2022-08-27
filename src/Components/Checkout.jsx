@@ -12,7 +12,7 @@ function Checkout(){
         <div className="texttext">
         <h1>Confirm Your Oreder by chosing Payment Method</h1>
         </div>
-        <div className="mainbox">
+        <div className="mainbox11">
             <div className="method">
                 <div>
                     <img
