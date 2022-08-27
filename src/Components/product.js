@@ -23,37 +23,4 @@ export const products=[
       details:"Shea Butter Clean bar",
       quantity:1,
     },
-    {
-        id:"4",
-        image:"https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw6ab59824/crop/026495985_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
-      name:"Mineral & Sea Salt",
-      price:"765",
-      details:"Altimate Hydration Body Creem",
-      quantity:1,
-    },
-    {
-        id:"5",
-        image:"https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwbdc07244/crop/026574102_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
-      name:"Coffee & Whisky",
-      price:"650",
-      details:"Wallflowers Fragnance Reffile",
-      quantity:1,
-    },
-    {
-        id:"6",
-        image:"https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwae70344e/crop/026495993_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
-        name:"Mineral & Sea Salt",
-        price:"905",
-        details:"Body Spray",
-        quantity:1,
-    },
-    {
-        id:"7",
-        image:"https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwfeb1e3f8/crop/026538273_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
-        name:"Coffee & Whisky",
-        price:"809",
-        details:"3-Week Cadles",
-        quantity:1,
-    },
-   
 ];
