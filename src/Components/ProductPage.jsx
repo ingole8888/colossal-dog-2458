@@ -11,6 +11,9 @@ function ProductPage(){
         .then((res)=> setData(res.data))
     });
     console.log(data)
+    function changeData(){
+        alert("Selected Product Added in Cart")
+    }
     return (
         <>
         <Navbar/>
@@ -22,7 +25,7 @@ function ProductPage(){
             <h4>{items.name}</h4>
             <h2>Price: ₹{items.price}</h2>
             <p>{items.details}</p>
-            <button>Add to Cart</button>
+            <button onClick={changeData}>Add to Cart</button>
             </div>
            )
         })}

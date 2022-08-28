@@ -7,3 +7,4 @@ Project Blog Link:
 https://medium.com/@ingole8888/building-clone-of-e-commerce-site-bathandbodyworks-com-729ded7b27b7
 
 Project Explaination Video Link:
+https://drive.google.com/file/d/1yyyOWt4LVHKNv9yPSix7fMORyaZqaEZr/view?usp=sharing
